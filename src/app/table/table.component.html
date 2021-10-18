@@ -1,0 +1,30 @@
+<app-alert></app-alert>
+<app-loading [style.display]="display"></app-loading>
+<p >Employee Details!</p>
+<div class="container">
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Employee ID</th>
+        <th>Grade</th>
+    </tr></thead>
+    <tbody  *ngFor="let employee of res">
+    <tr>
+    <td  (click)="row(employee)">{{employee.id}}</td>
+    <td  (click)="row(employee)">{{employee.name}}</td>
+    <td (click)="row(employee)">{{employee.eid}}</td>
+    <td style="width: 40%;"><textarea id="TextArea" rows="1" cols="50"  (change)="saveremarks(employee)">{{employee.remarks}}
+    </textarea></td>
+    </tr>
+    <tr class="newRow"*ngIf="expanded && selectedrow==employee.id">
+        <td colspan="4">
+            <span><b>Grade:</b> {{employee.grade}}</span>
+            <span><b>Phone.No:</b> {{employee.phone}}</span>
+            <span><b>Address:</b> {{employee.address}}</span>
+        </td>
+    </tr>
+</tbody>
+    </table>
+</div>

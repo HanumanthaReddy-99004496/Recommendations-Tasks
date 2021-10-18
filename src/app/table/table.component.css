@@ -1,0 +1,41 @@
+table{
+    margin-top: 1%;
+   position: relative;
+}
+.table-hover > tbody > tr:hover {
+    background-color: #504e50;
+    color: white;
+  }
+thead{
+
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(12, 1, 1);
+    background-color: rgb(131, 185, 221);
+}
+
+span{
+    margin: 0px 50px;
+    float: left;
+}
+
+td{
+font-weight: bolder;
+}
+
+p{
+    text-align: center;
+    color: brown;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style:italic;
+    margin-top: 3%;
+}
+textarea{
+    color: darkblue;
+    font-weight: lighter;
+}
+.newRow{
+    background-color: white;
+    font-weight: normal;
+}

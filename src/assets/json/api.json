@@ -1,0 +1,10 @@
+[
+    {"id":1,"name":"Hanumanth","eid":"40017824","grade":"LTTS-2","phone":"9441648989","address":"Dr.no:1-1, Hyderabad, India","remarks":"Good and Smart Worker"},
+    {"id":2,"name":"prasanth","eid":"40017822","grade":"LTTS-3","phone":"9441648982","address":"Dr.no:2-1, Bangalore, India","remarks":"Need to improve on English"},
+
+    {"id":3,"name":"Varun","eid":"40017823","grade":"LTTS-4","phone":"9441646989","address":"Dr.no:3-1,Delhi,India","remarks":"Very Good coder"},
+    {"id":4,"name":"Krishna","eid":"40017820","grade":"LTTS-5","phone":"9441048982","address":"Dr.no:4-1, Lucknow, India","remarks":"None"},
+
+    {"id":5,"name":"Vani","eid":"40017829","grade":"LTTS-6","phone":"9440648989","address":"Dr.no:5-1, Chennai, India","remarks":"work on new tech"},
+    {"id":6,"name":"Shreya","eid":"40017826","grade":"LTTS-7","phone":"9441848982","address":"Dr.no:6-1, Mysore, India","remarks":"Practice More"}
+]
