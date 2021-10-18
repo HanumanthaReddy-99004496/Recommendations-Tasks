@@ -9,7 +9,11 @@ export class EmployeeServiceService {
 
   constructor(private http:HttpClient) {}
     fetchData(){
-      return this.http.get<Emp[]>("http://localhost:4200/assets/json/api.json");
+      return this.http.get("http://localhost:3000/employees");
+    }
+    updateData(id:any,updatedbody:any){
+      console.log(id,updatedbody);
+      return this.http.put("http://localhost:3000/employees/"+id,updatedbody);
     }
    }
 
